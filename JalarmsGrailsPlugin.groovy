@@ -26,6 +26,7 @@ import org.codehaus.groovy.grails.commons.ConfigurationHolder
  * @author Hackergarten
  */
 class JalarmsGrailsPlugin {
+    def groupId = 'com.solab.grails'
     // the plugin version
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
@@ -37,11 +38,12 @@ class JalarmsGrailsPlugin {
             "grails-app/views/error.gsp"
     ]
 
-    def author = "Your name"
-    def authorEmail = ""
-    def title = "Plugin summary/headline"
+    def author = "Enrique Zamudio, Hector Cuesta, Andres Almiray"
+    def authorEmail = "chochos@users.sourceforge.net, aalmiray@users.sourceforge.net"
+    def title = "JAlarms plugin for Grails"
     def description = '''\\
-Brief description of the plugin.
+This plugin enables Grails applications to send alarms with a multitude of configurable channels.
+Relies on JAlarms http://jalarms.sourceforge.net
 '''
 
     def observe = ['controllers', 'services']
