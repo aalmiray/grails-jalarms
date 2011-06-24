@@ -1,0 +1,5 @@
+This is a Grails plugin to enable the use of the jAlarms library. It uses only the jalarms-core dependency; if you want to use additional channels (such as mail, nagios, xmpp) you must include jalarms-channels yourself.
+
+And of course you have to include jalarms-aop if you want to use the @AlarmOnException annotation.
+
+More info at http://jalarms.sourceforge.net/
