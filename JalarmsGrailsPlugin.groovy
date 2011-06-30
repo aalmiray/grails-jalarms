@@ -1,5 +1,5 @@
 /*
- * grails-jalarms: JAlarms Grails plugin
+ * grails-jalarms: jAlarms Grails plugin
  * Copyright 2010 and beyond, Hackergarten
  *
  * This library is free software; you can redistribute it and/or
@@ -40,10 +40,10 @@ class JalarmsGrailsPlugin {
 
     def author = "Enrique Zamudio, Hector Cuesta, Andres Almiray"
     def authorEmail = "chochos@users.sourceforge.net, aalmiray@users.sourceforge.net"
-    def title = "JAlarms plugin for Grails"
+    def title = "jAlarms plugin for Grails"
     def description = '''\\
 This plugin enables Grails applications to send alarms with a multitude of configurable channels.
-Relies on JAlarms http://jalarms.sourceforge.net
+Relies on jAlarms http://jalarms.sourceforge.net
 '''
 
     def observe = ['controllers', 'services']

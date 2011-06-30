@@ -1,10 +1,10 @@
 <plugin name='jalarms' version='0.3' grailsVersion='1.3.5 &gt; *'>
   <author>Enrique Zamudio, Hector Cuesta, Andres Almiray</author>
   <authorEmail>chochos@users.sourceforge.net, aalmiray@users.sourceforge.net</authorEmail>
-  <title>JAlarms plugin for Grails</title>
+  <title>jAlarms plugin for Grails</title>
   <description>\
 This plugin enables Grails applications to send alarms with a multitude of configurable channels.
-Relies on JAlarms http://jalarms.sourceforge.net
+Relies on jAlarms http://jalarms.sourceforge.net
 </description>
   <documentation>http://grails.org/plugin/jalarms</documentation>
   <resources>
