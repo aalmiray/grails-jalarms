@@ -25,8 +25,7 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-		compile 'net.sf.jalarms:jalarms-core:1.5.2'
-
-        // runtime 'mysql:mysql-connector-java:5.1.5'
+		compile 'net.sf.jalarms:jalarms-core:1.6.1'
+        //Projects should add jalarms-channels themselves if they need it.
     }
 }
